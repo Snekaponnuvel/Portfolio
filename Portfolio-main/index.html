@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneka P — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Sneka P — Frontend Developer and AI & Data Science Engineer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home">SP</a>
+        <nav id="nav" class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          id="menuBtn"
+          class="hamburger"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello<span class="dot">•</span> I'm</p>
+            <h1 class="headline">Sneka <span class="accent">P</span></h1>
+            <h2 class="tagline">Frontend Developer</h2>
+
+            <p class="lead">
+              Frontend Developer with hands-on experience in React.js, Next.js,
+              Flutter, and Tailwind CSS. Passionate about building responsive,
+              scalable web and mobile applications with modern frontend
+              technologies.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#contact">Hire Me</a>
+              <a
+                class="btn primary"
+                href="https://github.com/Snekaponnuvel"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                class="btn primary"
+                href="./assets/Sneka_P_Resume .pdf"
+                download
+              >
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+            <ul class="tech-row">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Flutter</li>
+              <li>Tailwind CSS</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="hero-art">
+            <div class="photo-ring">
+              <img src="./assets/Sneka-p-Profile.png" alt="Portrait of Sneka" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div>
+            <h3>About me</h3>
+            <p>
+              Detail-oriented undergraduate in Artificial Intelligence and Data
+              Science with hands-on experience developing web and mobile
+              applications using React.js, Next.js, Flutter and Tailwind CSS.
+              Experienced in REST API integration with working knowledge of
+              Node.js and Express.js.
+            </p>
+            <div class="stats">
+              <div>
+                <span class="num">8</span>
+                <span class="label">Months Experience</span>
+              </div>
+              <div>
+                <span class="num">2+</span>
+                <span class="label">Internships</span>
+              </div>
+              <div>
+                <span class="num">5+</span>
+                <span class="label">Certifications</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Quick facts</h4>
+            <ul class="facts">
+              <li>📍 Chennai, Tamil Nadu</li>
+              <li>🎓 B.Tech AI & Data Science (2022–2026)</li>
+              <li>🏫 Sri Venkateswara College of Engineering</li>
+              <li>💼 Frontend Developer</li>
+              <li>⚡ React.js • Next.js • Flutter • Tailwind CSS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h3>Why Hire Me?</h3>
+          <div class="grid cards">
+            <div class="card">
+              <h4>Problem Solver</h4>
+              <p>I build efficient and scalable frontend solutions.</p>
+            </div>
+            <div class="card">
+              <h4>UI/UX Focused</h4>
+              <p>I create clean, user-friendly interfaces.</p>
+            </div>
+            <div class="card">
+              <h4>Fast Learner</h4>
+              <p>Quickly adapt to new tools and technologies.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h3>Skills</h3>
+
+          <!-- FRONTEND -->
+          <h4 class="skill-title">Frontend</h4>
+          <div class="skills-grid">
+            <div class="skill">
+              <!-- <i class="devicon-angularjs-plain colored"></i -->
+                 <img src="./assets/Next JS.png" alt=" Nextjs"  width="80" height="80" />
+              <span>Next.js</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-html5-plain colored"></i><span>HTML5</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-css3-plain colored"></i><span>CSS3</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-typescript-plain colored"></i
+              ><span>TypeScript</span>
+            </div>
+            <div class="skill">
+             <img src="./assets/Flutter.png" alt=" Flutter"  width="50" height="50"/><span>Flutter</span>
+            </div>
+          </div>
+
+          <!-- PROGRAMMING -->
+          <h4 class="skill-title">Programming</h4>
+          <div class="skills-grid">
+            <div class="skill">
+               <img src="./assets/NodeJS.png" alt=" Node.js"  width="50" height="50"/><span>Flutter</span><span>Node.js</span>
+            </div>
+            <div class="skill">
+               <img src="./assets/ExpressJS.png" alt=" Express.js"  width="50" height="50"/><span>Flutter</span><span>Express.js</span>
+            </div>
+          </div>
+
+          <!-- DATABASE -->
+          <h4 class="skill-title">Database</h4>
+          <div class="skills-grid">
+            <div class="skill">
+              <img src="./assets/MongoDB.png" alt="MongoDB"  width="50" height="50"/><span>MongoDB</span>
+            </div>
+          </div>
+
+          <!-- TOOLS & DESIGN -->
+          <h4 class="skill-title">Tools</h4>
+          <div class="skills-grid">
+            <div class="skill">
+               <img src="./assets/Cursor.png" alt="Cursor"  width="50" height="50"/><span>Cursor</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-git-plain colored"></i><span>Git & GitHub</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-vscode-plain colored"></i><span>VS Code</span>
+            </div>
+            <div class="skill">
+              <i class="devicon-chrome-plain colored"></i
+              ><span>Chrome DevTools</span>
+            </div>
+          </div>
+
+          <!-- CONCEPTS -->
+          <h4 class="skill-title">Concepts</h4>
+          <div class="skills-grid">
+            <div class="skill"><span>Responsive Design</span></div>
+            <div class="skill"><span>Cross-Browser Compatibility</span></div>
+            <div class="skill"><span>Component-Based UI</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h3>Experience</h3>
+          <div class="timeline">
+            <article class="titem hover-card">
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/veract.png" class="company-logo"  width="50" height="50"/>
+                  <div>
+                    <h4>Frontend Developer — Veract Consultancy Pvt. Ltd</h4>
+                    <span class="tdate">Aug 2025 – Nov 2025</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>Developed web applications using React.js and Next.js.</li>
+                <li>Built Flutter mobile applications.</li>
+                <li>Integrated REST APIs.</li>
+                <li>Worked with Tailwind CSS.</li>
+                <li>Used Git and GitHub.</li>
+              </ul>
+            </article>
+            <article class="titem">
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/StarDotStar.png" class="company-logo" />
+                  <div>
+                    <h4>Software Developer — Stardotstar Pvt Ltd</h4>
+                    <span class="tdate">May 2024 – Nov 2024 · Chennai</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>Worked on customer profiling using web scraping.</li>
+                <li>Extracted and analyzed datasets.</li>
+                <li>Identified ideal customer groups.</li>
+              </ul>
+            </article>
+
+            <!-- <article class="titem">
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/codsoft.png" class="company-logo" />
+                  <!-- <div>
+                    <h4>UI/UX Intern — CodSoft (Virtual)</h4>
+                    <span class="tdate">Nov 2023 – Dec 2023</span>
+                  </div> -->
+                </div>
+              </div>
+              <!-- <ul> -->
+                <!-- <li>
+                  Created wireframes and UI designs using Figma and Adobe XD for
+                  web applications.
+                </li>
+                <li>
+                  Improved design consistency and user experience through
+                  iterative feedback.
+                </li>
+                <li>
+                  Collaborated with developers to deliver responsive and
+                  visually appealing interfaces.
+                </li> -->
+              <!-- </ul> -->
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h3>Projects</h3>
+
+          <div class="grid cards">
+            <!-- Project 1 -->
+            <article class="card project-card">
+              <div class="p-header">
+                <h4>🏫 School ERP Management System (Internship)</h4>
+                <span class="badge">2026</span>
+              </div>
+
+              <img src="./assets/Screenshot 2026-07-31 221314.png" class="project-img" />
+
+              <ul class="project-points">
+                <li>
+                 🏫 Developed and enhanced modules for a School ERP platform to simplify academic and administrative workflows.
+                </li>
+                <li>
+                📱 Worked on responsive web interfaces for managing student, teacher, and school-related operations.
+                </li>
+                <li>🔗 Integrated interactive components to improve user experience and system usability.</li>
+                <li>
+                  🧩 Implemented reusable components and optimized UI workflows.
+                </li>
+              </ul>
+
+              <div class="tech-stack">
+                <span>Flutter</span>
+                <span>MongoDB</span>
+                <span>NextJS</span>
+                <span>Node JS</span>
+              </div>
+
+              <div class="p-actions">
+                <a
+                  href="./assets/mobile-UI-Preview.pdf"
+                  class="btn small"
+                  target="_blank"
+                  >Preview</a
+                >
+                <!-- <a href="#" class="btn outline small">Live</a> -->
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card project-card">
+              <div class="p-header">
+                <h4>👶 Child Growth Abnormality Detection For Autism Patient Using Vision Transformer</h4>
+                <span class="badge">2026</span>
+              </div>
+
+              <img src="./assets/image.png" class="project-img" />
+
+              <ul class="project-points">
+                <li>🧠 Developed an AI-based system to detect child growth abnormalities using Vision Transformer (ViT) architecture.</li>
+                <li>👁️ Applied Attention Rollout Mechanism to visualize and interpret model decision-making regions.</li>
+                <li>🔍 Extracted important image features to improve abnormality detection accuracy.</li>
+                <li>📊 Implemented Five-Fold Cross Validation for reliable model evaluation.</li>
+                 <li>🤖 Designed a deep learning pipeline for medical image classification.</li>
+                  <li>📈 Evaluated model performance using classification metrics and visualization techniques.</li>
+              </ul>
+
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>Vision Transformer </span>
+                <span>Deep Learning</span>
+              </div>
+
+              <div class="p-actions">
+                <a
+                  href="https://github.com/Snekaponnuvel/autism-vit-project"
+                  class="btn small"
+                  target="_blank"
+                  >Code</a
+                >
+                 <a
+                  href="./assets/jener-journal-paper (2).pdf"
+                  class="btn small"
+                  target="_blank"
+                  >Journal</a
+                >
+                    <a
+                  href="./assets/Sample Thesis (1) (1) (3).pdf"
+                  class="btn small"
+                  target="_blank"
+                  >Thesis</a
+                >
+
+              </div>
+            </article>
+            <!-- Project 3 -->
+               <article class="card project-card">
+              <div class="p-header">
+                <h4>🌐 Interactive Website Development (Internship)</h4>
+                <span class="badge">2026</span>
+              </div>
+
+              <img src="assets/Screenshot 2026-07-31 223622.png" class="project-img" />
+
+              <ul class="project-points">
+                <li>
+                🌍 Built interactive and responsive web pages with modern UI designs.
+                </li>
+                <li>
+                🎨 Developed reusable frontend components for better maintainability.
+                </li>
+                <li>🔄 Integrated dynamic content and API-based functionalities.</li>
+                <li>
+                 ⚡ Improved website performance and user interaction experience.
+                </li>
+                 <li>
+                 📱 Ensured cross-platform compatibility across desktop ,Tab and mobile devices.
+                </li>
+              </ul>
+
+              <div class="tech-stack">
+                <span>Next JS</span>
+                <span>Tailwind CSS</span>
+                <span>MongoDB</span>
+                <span>Node JS</span>
+              </div>
+
+              <div class="p-actions">
+                <a
+                  href="./assets/Websites-Preview.pdf"
+                  class="btn small"
+                  target="_blank"
+                  >Preview</a
+                >
+                <!-- <a href="#" class="btn outline small">Live</a> -->
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Patent / Achievements -->
+      <section class="section">
+        <div class="container two-col">
+          <div class="card highlight-card">
+            <h3> Paper Presentation</h3>
+            <p>Presented a research paper on Breast Cancer Detection Using AI, explaining the use of Artificial Intelligence and Deep Learning techniques for early cancer detection. Explored how CNN-based models can analyze medical images and assist healthcare professionals in diagnosis.</p>
+          </div>
+          <div class="card">
+            <h3>Hackathons</h3>
+            <ul class="facts">
+              <li>
+                Participated in Samacheer Kalvi AR/VR Hackathon 2.0, exploring the applications of Augmented Reality and Virtual Reality technologies to develop innovative solutions. Gained exposure to immersive technology concepts, creative problem-solving, and teamwork.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Education-->
+      <section class="section">
+        <div class="container">
+          <h3>Education</h3>
+
+          <div class="edu-grid">
+            <div class="edu-card">
+              <h4>🎓 B.Tech Artificial Intelligence and Data Science</h4>
+              <p>Prince Sri Venkateswara College of  Engineering</p>
+              <span>2022 – 2026</span>
+              <div class="score">CGPA: 8.25</div>
+            </div>
+
+            <div class="edu-card">
+              <h4>🏫 HSC</h4>
+              <p>DAV  Matriculation Higher Secondary School</p>
+              <span>2022</span>
+              <div class="score">89.5%</div>
+            </div>
+
+            <div class="edu-card">
+              <h4>🏫 SSLC</h4>
+              <p>DAV  Matriculation Higher Secondary School</p>
+              <span>2020</span>
+              <div class="score">81%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---certification-->
+
+      <section class="section alt">
+        <div class="container">
+          <h3>Certifications</h3>
+
+          <div class="cert-grid">
+            <div class="cert-card">
+              <h4> ☕ Infosys Springboard</h4>
+              <p>Java Certification</p>
+            </div>
+
+            <div class="cert-card">
+              <h4>☁️ NPTEL (IIT Madras)</h4>
+              <p>Cloud Computing</p>
+            </div>
+
+            <div class="cert-card">
+              <h4>🐍 Infosys Springboard</h4>
+              <p>Python Certification</p>
+            </div>
+
+            <div class="cert-card">
+              <h4>🏆 Makeathon 2.0</h4>
+              <p>Participation Certificate</p>
+            </div>
+
+            <div class="cert-card">
+              <h4>💻Internship Certificate</h4>
+              <p>Stardotstar Pvt. Ltd. (Web Scraping for Customer Profiling)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container contact">
+          <div>
+            <h3>Contact Me</h3>
+            <p class="lead">Have an interesting role or project? Let’s talk.</p>
+            <ul class="facts">
+              <li>
+                <a href="mailto:snekaponnuvel19@gmail.com"
+                  >snekaponnuvel19@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.linkedin.com/in/sneka-ponnuvel/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>Chennai, Tamil Nadu</li>
+            </ul>
+          </div>
+
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/mnjopgkk"
+            method="POST"
+          >
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="_replyto"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="How can I help?"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> Sneka P</p>
+        <div class="socials">
+          <a href="mailto:snekaponnuvel19@gmail.com" aria-label="Email">✉️</a>
+          <a
+            href="https://www.linkedin.com/in/sneka-ponnuvel/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            >in</a
+          >
+          <a
+            href="./assets/Sneka_P_Resume.pdf"
+            target="_blank"
+            rel="noopener"
+            aria-label="Resume"
+            >📄</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
